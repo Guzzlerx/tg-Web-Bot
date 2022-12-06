@@ -14,7 +14,10 @@ function App() {
 
   return (
     <div className="App">
-      <p>HELLO</p>
+      <p>
+        HELLO, ${tg.initDataUnsafe?.user?.username}, id - $
+        {tg.initDataUnsafe?.user?.id}
+      </p>
       <button onClick={onClose}>Закрыть</button>
     </div>
   );
