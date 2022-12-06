@@ -4,8 +4,6 @@ import { useEffect } from 'react';
 const tg = window.Telegram.WebApp;
 
 function App() {
-  console.log(tg);
-
   const onClose = () => {
     tg.close();
   };
@@ -16,7 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      work<button onClose={onClose}>Закрыть</button>
+      <p>HELLO</p>
+      <button onClick={onClose}>Закрыть</button>
     </div>
   );
 }
