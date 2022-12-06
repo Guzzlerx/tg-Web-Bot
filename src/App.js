@@ -1,26 +1,16 @@
-import './App.css';
 import { useEffect } from 'react';
 
-const tg = window.Telegram.WebApp;
+import UseTelegram from './hooks/useTelegram';
+import RouteList from './Navigation/RouteList';
+
+const { readyApp } = UseTelegram();
 
 function App() {
-  const onClose = () => {
-    tg.close();
-  };
-
   useEffect(() => {
-    tg.ready();
+    readyApp();
   }, []);
 
-  return (
-    <div className="App">
-      <p>
-        HELLO, {tg.initDataUnsafe?.user?.first_name}, id -
-        {tg.initDataUnsafe?.user?.id}
-      </p>
-      <button onClick={onClose}>Закрыть</button>
-    </div>
-  );
+  return <RouteList />;
 }
 
 export default App;
