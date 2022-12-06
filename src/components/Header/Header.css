@@ -1,0 +1,14 @@
+.header {
+}
+
+.header__logo {
+}
+
+.header__title {
+  font-family: Handjet, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
