@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 
+import './App.css';
+
 import UseTelegram from './hooks/useTelegram';
 import RouteList from './Navigation/RouteList';
 
