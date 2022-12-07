@@ -66,6 +66,8 @@
 
   color: rgba(253, 253, 253, 1);
 
+  position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +114,6 @@
 
 .button_size_big {
   width: 100%;
-  position: relative;
   padding: 63px 0 33px;
 
   display: flex;
@@ -123,4 +124,10 @@
   position: absolute;
   top: -30%;
   left: 35%;
+}
+
+.button__icon_type_wb {
+  top: -19px;
+  left: auto;
+  right: -20px;
 }

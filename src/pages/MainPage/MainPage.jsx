@@ -6,6 +6,7 @@ import UseTelegram from '../../hooks/useTelegram';
 
 import saleIcon from '../../assets/SaleIcon.svg';
 import moneyBagIcon from '../../assets/moneyBagIcon.svg';
+import wbIcon from '../../assets/wbIcon.svg';
 
 import './MainPage.css';
 
@@ -37,7 +38,12 @@ const MainPage = () => {
           </button>
         </div>
         <button className="button button_color_purple">
-          Бесплатные покупки на WB
+          <h3 className="button__title">Бесплатные покупки на WB</h3>
+          <img
+            className="button__icon button__icon_type_wb"
+            alt="wildberries icon"
+            src={wbIcon}
+          />
         </button>
         <button className="button button_type_close" onClick={closeApp}>
           Закрыть
