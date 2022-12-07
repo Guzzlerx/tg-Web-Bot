@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/Handjet-Regular.ttf');
+  src: url('./assets/fonts/Handjet/Handjet-Regular.woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/HandjetFlowerDouble-Medium.ttf');
+  src: url('./assets/fonts/Handjet/HandjetFlowerDouble-Medium.woff2');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/HandjetCircleDouble-Semibold.ttf');
+  src: url('./assets/fonts/Handjet/HandjetCircleDouble-Semibold.woff2');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/HandjetCircle-Bold.ttf');
+  src: url('./assets/fonts/Handjet/HandjetCircle-Bold.woff2');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/HandjetHeartDouble-Extrabold.ttf');
+  src: url('./assets/fonts/Handjet/HandjetHeartDouble-Extrabold.woff2');
   font-weight: 800;
 }
 
 @font-face {
   font-family: 'Handjet';
-  src: url('./assets/fonts/Handjet/HandjetCircle-Black.ttf');
+  src: url('./assets/fonts/Handjet/HandjetCircle-Black.woff2');
   font-weight: 900;
 }
 
