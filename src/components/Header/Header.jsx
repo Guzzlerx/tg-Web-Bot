@@ -1,6 +1,6 @@
 import './Header.css';
 
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/newBot.svg';
 
 const Header = () => {
   return (
