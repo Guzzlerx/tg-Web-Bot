@@ -90,10 +90,6 @@
   cursor: pointer;
 }
 
-.button:active {
-  filter: opacity(0.7);
-}
-
 .button_type_close {
   background-color: rgba(204, 93, 93, 1);
   width: 125px;

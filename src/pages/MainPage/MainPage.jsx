@@ -6,7 +6,7 @@ import UseTelegram from '../../hooks/useTelegram';
 
 import saleIcon from '../../assets/SaleIcon.svg';
 import moneyBagIcon from '../../assets/moneyBagIcon.svg';
-import wbIcon from '../../assets/wbNewIcon.svg';
+import wbIcon from '../../assets/test.svg';
 
 import './MainPage.css';
 
