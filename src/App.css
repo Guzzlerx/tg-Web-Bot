@@ -41,6 +41,6 @@
 }
 
 body {
-  background-color: var(--tg-theme-bg-color);
+  background-color: #413f3f;
   color: var(--tg-theme-text-color);
 }
