@@ -8,8 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Snowfall style={{ height: '100%', zIndex: 1 }} />
       <App />
-      <Snowfall />
     </BrowserRouter>
   </React.StrictMode>
 );
