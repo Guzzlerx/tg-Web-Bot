@@ -25,7 +25,7 @@ const MainPage = () => {
         <p className="main__info">Используй кнопки ниже</p>
         <div className="main__btn-container">
           <button className="button button_size_big button_color_blue">
-            <h3 className="button__title">Холява и Скидки</h3>
+            <h3 className="button__title">Халява и Скидки</h3>
             <img className="button__icon" src={saleIcon} alt="sale icon" />
           </button>
           <button className="button button_size_big button_color_sand">
