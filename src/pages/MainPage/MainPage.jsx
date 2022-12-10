@@ -15,19 +15,23 @@ const MainPage = () => {
 
   return (
     <div className="main">
-      <Header />
+      <Header isMainPage={true} />
       <div className="container">
         <h1 className="main__title">
           Надеюсь, что этот бот будет полезен и поможет вам как заработать, так
           и сэкономить{' '}
         </h1>
-        <div className="main__hr" />
+        <div className="hr main__hr" />
         <p className="main__info">Используй кнопки ниже</p>
         <div className="main__btn-container">
-          <button className="button button_size_big button_color_blue">
-            <h3 className="button__title">Халява и Скидки</h3>
-            <img className="button__icon" src={saleIcon} alt="sale icon" />
-          </button>
+          <Link className="main__link" to="/freebie">
+            <button className="button button_size_big button_color_blue">
+              <h3 className="button__title" style={{ textDecoration: 'none' }}>
+                Халява и Скидки
+              </h3>
+              <img className="button__icon" src={saleIcon} alt="sale icon" />
+            </button>
+          </Link>
           <button className="button button_size_big button_color_sand">
             <h3 className="button__title">Схемы заработка</h3>
             <img
