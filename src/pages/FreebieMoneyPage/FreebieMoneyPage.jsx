@@ -1,26 +1,22 @@
-import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { Link } from 'react-router-dom';
+
+import Header from '../../components/Header/Header';
+import CustomBackButton from '../../components/UI/CustomBackButton/CustomBackButton';
+import CustomButton from '../../components/UI/CustomButton/CustomButton';
 
 import { freebieButton } from '../../constants/buttons';
 
-import Header from '../../components/Header/Header';
-import CustomButton from '../../components/UI/CustomButton/CustomButton';
-
-import './FreebiePage.css';
-import CustomBackButton from '../../components/UI/CustomBackButton/CustomBackButton';
-
-const FreebiePage = () => {
+const FreebieMoneyPage = () => {
   return (
     <>
-      <Header isMainPage={false} />
+      <Header />
       <div className="btn-container">
         <CustomBackButton />
-        {freebieButton.map((btn) => (
+        {freebieButton[2].content.map((btn) => (
           <CustomButton
-            key={uuidv4()}
             title={btn.title}
-            icon={btn.icon}
+            icon={btn.title}
+            key={uuidv4()}
             color={btn.color}
             navLink={btn.navLink}
             {...btn}
@@ -31,4 +27,4 @@ const FreebiePage = () => {
   );
 };
 
-export default FreebiePage;
+export default FreebieMoneyPage;
