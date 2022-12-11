@@ -1,0 +1,9 @@
+.button_type_back {
+  background-color: #5d83cc;
+
+  width: 80%;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}

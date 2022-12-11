@@ -40,68 +40,59 @@ import moneyManIcon from '../assets/icons/moneyWithoutPercent/money_man.svg';
 import belkaIcon from '../assets/icons/moneyWithoutPercent/belka.svg';
 import maxIcon from '../assets/icons/moneyWithoutPercent/max.svg';
 
-const freebieAndDiscountsCatalogue = [
+const freebieButton = [
   {
     title: 'Еда и доставка',
-    id: uuidv4(),
     icon: foodAndDeliveryIcon,
+    color: 'rgba(204, 113, 93, 1)',
+    navLink: 'food_and_delivery',
     content: [
       {
-        id: uuidv4(),
         title: 'Бургер Кинг',
         icon: burgerKingIcon,
         info: 'Burger king',
       },
       {
-        id: uuidv4(),
         title: 'TanukiFamily',
         icon: tanukiFamilyIcon,
         info: 'TanukiFamily',
       },
       {
-        id: uuidv4(),
         title: 'Твоя пицца',
         icon: yourPizzaIcon,
         info: 'Твоя пицца',
       },
       {
-        id: uuidv4(),
         title: 'Скидка 25% в Магните',
         icon: magnitIcon,
         info: 'Скидка 25% в Магните',
       },
       {
-        id: uuidv4(),
         title: 'Много Лосося',
         icon: mnogoLososyaIcon,
         info: 'Много Лосося',
       },
       {
-        id: uuidv4(),
         title: 'Flour2u скидка -40%',
         icon: flor2uIcon,
         info: 'Flour2u скидка -40%',
       },
       {
-        id: uuidv4(),
         title: 'Глобус',
         icon: globusIcon,
         info: 'Глобус',
       },
       {
-        id: uuidv4(),
         title: 'СберМегаМаркет',
         icon: sberIcon,
         info: 'СберМегаМаркет',
       },
       {
-        id: uuidv4(),
         title: 'Пятерочка',
         icon: pyaterochkaIcon,
         info: 'Пятерочка',
       },
       {
-        id: uuidv4(),
         title: 'ВинЛаб',
         icon: winelabIcon,
         info: 'ВинЛаб',
@@ -110,47 +101,40 @@ const freebieAndDiscountsCatalogue = [
   },
   {
     title: 'Подписка на сервисы',
-    id: uuidv4(),
     icon: servicesSubscribeIcon,
+    color: 'rgba(77, 137, 76, 1)',
     content: [
       {
-        id: uuidv4(),
         title: 'VK музыка бесплатно',
         icon: vkMusicIcon,
         info: 'VK музыка бесплатно',
       },
       {
-        id: uuidv4(),
         title: 'Okko бесплатная подписка',
         icon: okkoIcon,
         info: 'Okko бесплатная подписка',
       },
       {
-        id: uuidv4(),
         title: 'Яндекс 360',
         icon: yandex360Icon,
         info: 'Яндекс 360',
       },
       {
-        id: uuidv4(),
         title: 'Premier бесплатная подписка',
         icon: premierIcon,
         info: 'Premier бесплатная подписка',
       },
       {
-        id: uuidv4(),
         title: 'Start бесплатная подписка',
         icon: startIcon,
         info: 'Start бесплатная подписка',
       },
       {
-        id: uuidv4(),
         title: 'Яндекс Маркет',
         icon: yandexMarketIcon,
         info: 'Яндекс Маркет',
       },
       {
-        id: uuidv4(),
         title: 'Яндекс Афиша',
         icon: yandexAfishaIcon,
         info: 'Яндекс Афиша',
@@ -159,35 +143,30 @@ const freebieAndDiscountsCatalogue = [
   },
   {
     title: 'Халявные деньги',
-    id: uuidv4(),
     icon: freebieMoneyIcon,
+    color: 'rgba(102, 93, 204, 1)',
     content: [
       {
-        id: uuidv4(),
         title: '3000 от Ренессанс',
         icon: renessansBankIcon,
         info: '3000 от Ренессанс',
       },
       {
-        id: uuidv4(),
         title: '20 000 от Альфа Банка',
         icon: alfaBankIcon2,
         info: '20 000 от Альфа Банка',
       },
       {
-        id: uuidv4(),
         title: '500 от Альфа Банка',
         icon: alfaBankIcon,
         info: '500 от Альфа Банка',
       },
       {
-        id: uuidv4(),
         title: '1000 от МТС',
         icon: mtsIcon,
         info: '1000 от МТС',
       },
       {
-        id: uuidv4(),
         title: '2023 от Открытия',
         icon: otkritieBankIcon,
         info: '2023 от Открытия',
@@ -196,29 +175,25 @@ const freebieAndDiscountsCatalogue = [
   },
   {
     title: 'Деньги без %',
-    id: uuidv4(),
     icon: moneyWithoutPercentIcon,
+    color: 'rgba(204, 147, 93, 1)',
     content: [
       {
-        id: uuidv4(),
         title: 'Lime',
         icon: limeIcon,
         info: 'Lime',
       },
       {
-        id: uuidv4(),
         title: 'MoneyMan',
         icon: moneyManIcon,
         info: 'MoneyMan',
       },
       {
-        id: uuidv4(),
         title: 'Belka',
         icon: belkaIcon,
         info: 'Belka',
       },
       {
-        id: uuidv4(),
         title: 'Max',
         icon: maxIcon,
         info: 'Max',
@@ -226,3 +201,5 @@ const freebieAndDiscountsCatalogue = [
     ],
   },
 ];
+
+export { freebieButton };

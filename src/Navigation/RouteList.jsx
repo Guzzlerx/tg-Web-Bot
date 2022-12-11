@@ -1,18 +1,17 @@
 import { Route, Navigate, Routes } from 'react-router-dom';
 
-import PATH from '../constants/path.js';
-
 import MainPage from '../pages/MainPage/MainPage.jsx';
 import Error404 from '../pages/Error404/Error404.jsx';
-import FreebieRoute from './routes/FreebieRoute.jsx';
+import FreebiePage from '../pages/FreebiePage/FreebiePage.jsx';
 
 const RouteList = () => {
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
-      <Route path="/freebie" element={<FreebieRoute />} />
-      <Route path={PATH.error404} element={<Error404 />} />
-      <Route path="*" element={<Navigate to={PATH.error404} />} />
+      <Route path="/freebie/" element={<FreebiePage />} />
+      <Route path="/freebie/food_and_delivery" element={<h1>asdv</h1>} />
+      <Route path="/error404" element={<Error404 />} />
+      <Route path="*" element={<Navigate to={'error404'} />} />
     </Routes>
   );
 };

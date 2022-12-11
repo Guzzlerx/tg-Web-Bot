@@ -1,0 +1,8 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+
+  margin-bottom: 30px;
+}
