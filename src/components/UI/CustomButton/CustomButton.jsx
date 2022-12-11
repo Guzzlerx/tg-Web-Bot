@@ -7,10 +7,10 @@ const CustomButton = ({ title, icon, color, navLink }) => {
     <Link
       to={navLink}
       style={{ backgroundColor: color }}
-      className="custom-button"
+      className="button button_type_default"
     >
-      <h3 className="custom-button__title">{title}</h3>
-      <img className="custom-button_icon" src={icon} alt={`Иконка ${title}`} />
+      <h3 className="title">{title}</h3>
+      <img className="icon" src={icon} alt={`Иконка ${title}`} />
     </Link>
   );
 };
