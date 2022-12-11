@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -77,7 +77,7 @@
   justify-content: center;
   align-items: center;
 
-  padding-top: 63px 0 33px;
+  padding: 34px 22px;
 
   transition: transform 0.2s ease;
 }
@@ -115,7 +115,7 @@
 
 .button_size_big {
   width: 100%;
-  padding: 63px 0 33px;
+  padding: 74px 0 41px;
 
   display: flex;
   align-items: center;
@@ -123,8 +123,8 @@
 
 .button__icon {
   position: absolute;
-  top: -30%;
-  left: 35%;
+  top: -18%;
+  left: 33%;
 }
 
 .button__icon_type_wb {
